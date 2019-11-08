@@ -82,7 +82,6 @@ height: 100%;
   display: flex;
   justify-content: center;
     width: 100%;
-    height: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -91,9 +90,9 @@ height: 100%;
   display: flex;
 justify-content: center;
   width: 100%;
-  height: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
+  height: 12%;
+  margin-left: 15%;
+  margin-right: 5%;
 }
 
 .event-col {
@@ -103,11 +102,14 @@ justify-content: center;
   border: 2px white;
 }
 
-.hour-label {
-  border: 2px dashed;
-
+#event-text {
+  display: flex;
+ height: auto;
+ width: auto;
+background: none;
+border: none;
 }
 
-.save-button {
-  background-color: rgb(30, 30, 170);
+.hour-block {
+  padding: 0;
 }
