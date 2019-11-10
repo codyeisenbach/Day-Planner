@@ -81,7 +81,6 @@ for (i = 0; i < hoursArr.length; i++) {
     hProp.text(hoursArr[i].label);
     tBlock.appendTo(".container");
     
-currentHour = 10;
     if (nId < currentHour) {
         eventCol.addClass("past");
     }
